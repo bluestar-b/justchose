@@ -860,7 +860,7 @@
 
     <details>
       <summary>View proof</summary>
-      <pre>{JSON.stringify(proofWithFormula(proof), null, 2)}</pre>
+      <code>{JSON.stringify(proofWithFormula(proof), null, 2)}</code>
     </details>
   {/if}
 
@@ -909,7 +909,7 @@
 
           <details>
             <summary>View proof</summary>
-            <pre>{JSON.stringify(proofWithFormula(saved), null, 2)}</pre>
+            <code>{JSON.stringify(proofWithFormula(saved), null, 2)}</code>
           </details>
         </li>
       {/each}
